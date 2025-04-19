@@ -10,7 +10,7 @@
 
 I'm a passionate developer who enjoys building full-stack applications using **Java**, **JavaScript**, and **TypeScript**. I've worked on several projects ranging from point-of-sale systems to e-commerce platforms.
 
-Currently exploring tools like **Grafana** and expanding my backend skills.
+Currently building the future of fitness content delivery 🏢.
 
 ---
 
