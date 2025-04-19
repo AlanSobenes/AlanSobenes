@@ -34,7 +34,7 @@ Currently exploring tools like **Grafana** and expanding my backend skills.
 
 ## 🔗 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/YOUR-LINKEDIN)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/alan-sobenes/)
 
 ---
 
@@ -43,4 +43,3 @@ Currently exploring tools like **Grafana** and expanding my backend skills.
 - 🔥 [**ReactJavaEcommerce**](https://github.com/AlanSobenes/ReactJavaEcommerce) – Full-stack ecommerce built with React and Java
 - 🛠️ [**mernEcommerceCars**](https://github.com/AlanSobenes/mernEcommerceCars) – A MERN stack app for car sales
 - 💡 [**JavaPointOfSale**](https://github.com/AlanSobenes/JavaPointOfSale) – A desktop POS system in Java
-
