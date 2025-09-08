@@ -1,45 +1,59 @@
-# 👋 Hi, I'm Alan Sobenes
+# 👋 Hey, I’m **Alan Sobenes**  
 
-💻 **Full Stack Developer**  
-📍 Based in Los Angeles, CA  
-📬 alansobenes@gmail.com  
-
----
-
-## 🚀 About Me
-
-I'm a passionate developer who enjoys building full-stack applications using **Java**, **JavaScript**, and **TypeScript**. I've worked on several projects ranging from point-of-sale systems to e-commerce platforms.
-
-Currently building the future of fitness content delivery 🏢.
+💻 **Full Stack Developer | Builder of Digital Experiences**  
+📍 Los Angeles, CA  
+📬 [alansobenes@gmail.com](mailto:alansobenes@gmail.com)  
 
 ---
 
-## 🛠️ Languages & Tools
+## 🚀 About Me  
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white)
+I’m a **results-driven developer** who thrives on building end-to-end applications that blend **clean code, scalability, and beautiful design**.  
+From **Java-based POS systems** to **cutting-edge fitness platforms**, I love solving complex problems and turning ideas into production-ready software.  
+
+⚡ Currently: **Building the future of fitness content delivery at FITREPS**  
 
 ---
 
-## 📈 GitHub Stats
+## 🛠️ Tech Stack & Tools  
 
-![Alan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlanSobenes&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlanSobenes&layout=compact&theme=radical)
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
 
 ---
 
-## 🔗 Connect with Me
+## 📊 GitHub Analytics  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/alan-sobenes/)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AlanSobenes&show_icons=true&theme=radical" height="180px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlanSobenes&layout=compact&theme=radical" height="180px"/>
+</p>
 
 ---
 
-## 📂 Notable Projects
+## 📂 Featured Projects  
 
-- 🔥 [**ReactJavaEcommerce**](https://github.com/AlanSobenes/ReactJavaEcommerce) – Full-stack ecommerce built with React and Java
-- 🛠️ [**mernEcommerceCars**](https://github.com/AlanSobenes/mernEcommerceCars) – A MERN stack app for car sales
-- 💡 [**JavaPointOfSale**](https://github.com/AlanSobenes/JavaPointOfSale) – A desktop POS system in Java
+🔥 **[ReactJavaEcommerce](https://github.com/AlanSobenes/ReactJavaEcommerce)**  
+*A full-stack ecommerce platform built with React & Java.*  
+
+🛠️ **[mernEcommerceCars](https://github.com/AlanSobenes/mernEcommerceCars)**  
+*A MERN stack marketplace for buying & selling cars.*  
+
+💡 **[JavaPointOfSale](https://github.com/AlanSobenes/JavaPointOfSale)**  
+*A desktop Point-of-Sale system written in Java.*  
+
+---
+
+## 🌐 Connect With Me  
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/alan-sobenes/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
