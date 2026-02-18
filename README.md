@@ -28,12 +28,16 @@ From **Java-based POS systems** to **cutting-edge fitness platforms**, I love so
 
 ---
 
-## 📊 GitHub Analytics  
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AlanSobenes&show_icons=true&theme=radical" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlanSobenes&layout=compact&theme=radical" height="180px"/>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlanSobenes&show_icons=true&theme=radical&cache_seconds=86400&v=1)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlanSobenes&layout=compact&theme=radical&cache_seconds=86400&v=1)
+
 </p>
+
 
 ---
 
