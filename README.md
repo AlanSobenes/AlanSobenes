@@ -30,13 +30,10 @@ From **Java-based POS systems** to **cutting-edge fitness platforms**, I love so
 
 ## 📊 GitHub Analytics
 
-<p align="center">
+![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AlanSobenes&show_icons=true&theme=radical)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AlanSobenes&show_icons=true&theme=radical&cache_seconds=86400&v=1)
+![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=AlanSobenes&layout=compact&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlanSobenes&layout=compact&theme=radical&cache_seconds=86400&v=1)
-
-</p>
 
 
 ---
