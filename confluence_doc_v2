@@ -1,0 +1,403 @@
+h1. TGS Flow Pilot
+
+h2. Overview
+
+TGS Flow enables two capabilities:
+
+* Generate Jira compliant backlog items from planning artifacts
+* Automatically reconcile GitHub engineering activity back into Jira so work in progress reflects real execution
+
+This pilot validates the workflow end to end before expanding usage across CORE.
+
+---
+
+h2. Pilot Goals
+
+The pilot will validate that teams can:
+
+* Generate backlog items from requirements, solution docs, or meeting notes
+* Assign engineering work through those backlog items
+* Automatically update Jira based on GitHub activity
+* Reduce manual Jira updates
+* Improve visibility into real engineering work
+
+---
+
+h2. Pilot Scope
+
+Two supported participation paths:
+
+h3. Path A – TGS Flow VS Code Extension
+
+Teams use the TGS Flow repository and VS Code extension to:
+
+* Generate backlog items
+* Reconcile GitHub commits with Jira work
+
+h3. Path B – Claude Jira CLI
+
+Some participants may use the Claude Jira CLI integration being piloted by R2E.
+
+Questions related to the CLI workflow should be directed to the CLI support lead.
+
+---
+
+h2. Pilot Timeline
+
+h3. Sprint 1 – Onboarding and Validation
+
+*Dates:* March 19 – April 1
+
+*Objective*
+
+Each participant and their team installs the tooling and validates the workflow.
+
+*Expected Outcomes*
+
+* Install and configure tooling
+* Run an initial workflow test
+* Identify the real use case that will run in Sprint 2
+* Confirm which engineers must participate
+* Validate the workflow works end to end
+
+h3. Sprint 1 Test Definition
+
+Each participant must run a small validation test to confirm the workflow works before participating in Sprint 2.
+
+The purpose of the test is to validate:
+
+* Tool installation
+* Backlog generation
+* Jira integration
+* Team access setup
+
+The test should create a minimal amount of Jira content.
+
+h4. Required Test Scope
+
+The test should generate only:
+
+* 1 Epic
+* 1 Story
+
+These should be created from a simple test document or notes.
+
+Example source artifact:
+
+* Short solution note
+* Small design outline
+* Meeting notes
+
+The goal is to validate that the workflow works, not to generate real backlog.
+
+h4. Test Steps
+
+# Install and configure the tool
+
+# Generate backlog from a simple source document
+
+# Confirm the Epic and Story are created in Jira
+
+# Verify the tickets contain expected fields
+
+# Confirm the participant has access to assign work
+
+# Define the real use case that will be executed in Sprint 2
+
+# Confirm the engineers required for the Sprint 2 use case
+
+# Ensure those engineers complete setup if they will participate
+
+h3. Test Data Cleanup Requirement
+
+The Sprint 1 test should create minimal Jira content.
+
+To avoid cluttering Jira projects:
+
+* Only create 1 Epic and 1 Story
+* Use a clearly identifiable naming pattern
+
+Example naming convention:
+
+{code}
+[TGS TEST] Example Backlog Generation
+{code}
+
+After the test is completed:
+
+* Participants should notify the pilot admins in Slack
+* Pilot admins will remove the test artifacts
+
+Note: Not all participants will have permission to delete Jira issues. If cleanup is required, pilot administrators will handle deletion.
+
+The purpose of this process is to prevent Jira hygiene issues during the pilot.
+
+---
+
+h3. Sprint 2 – Real Use Case Execution
+
+*Dates:* April 2 – April 15
+
+*Objective*
+
+Each team runs one real engineering use case through the workflow.
+
+*Expected Outcomes*
+
+Teams should:
+
+* Use a real requirements artifact or solution document
+* Generate backlog items
+* Assign work to engineers
+* Execute the work
+* Validate that GitHub activity updates Jira
+* Provide feedback on workflow gaps or friction
+
+*Sprint 2 Demonstration*
+
+At the end of the sprint each team should show:
+
+* Source artifact used
+* Generated backlog
+* Jira tickets created
+* Engineers assigned
+* Jira updates during execution
+* Feedback and improvement suggestions
+
+---
+
+h2. What Participants Need To Do
+
+h3. During Sprint 1
+
+# Review this documentation
+
+# Access the TGS Flow repository
+
+# Install and configure the tool
+
+# Run the Sprint 1 validation test
+
+# Define the real use case for Sprint 2
+
+# Identify engineers who must participate
+
+# Ensure those engineers complete setup
+
+h3. During Sprint 2
+
+# Execute a real use case
+
+# Generate backlog items
+
+# Assign work through Jira
+
+# Execute work through the sprint
+
+# Validate GitHub to Jira updates
+
+# Provide feedback
+
+---
+
+h2. Access
+
+h3. Repository
+
+Use the TGS Flow GitHub repository shared in the pilot Slack channel.
+
+h3. Documentation
+
+This page is the primary pilot reference.
+
+Additional resources may include:
+
+* GitHub repository README
+* CLI documentation
+* Pilot Slack channel
+
+---
+
+h2. Prerequisites
+
+Participants should have:
+
+* Access to the TGS Flow GitHub repository
+* VS Code installed if using the extension path
+* GitHub token
+* Jira token
+* Jira base URL
+* Jira project keys
+* Access to a local repository to test the workflow
+* A source document or meeting notes to generate backlog
+
+---
+
+h2. Setup Instructions
+
+h3. Install the VS Code Extension
+
+Install the TGS Flow extension in VS Code.
+
+h3. Configure Settings
+
+Open the Command Palette and configure:
+
+* Jira Base URL
+* GitHub Token
+* Jira Token
+* Jira Project Keys
+
+h3. Install Git Hooks
+
+Run the command:
+
+{code}
+TGS Flow: Install Git Hook
+{code}
+
+This enables:
+
+* pre commit validation
+* post commit reconciliation
+
+h3. Confirm Commands
+
+Verify the following commands are available:
+
+* Install Git Hook
+* Reconcile Work
+* Scan TODOs to Jira
+* Solution Doc to Backlog
+
+h3. Run Initial Test
+
+Use a sample document or notes to confirm the workflow works.
+
+---
+
+h2. Core Workflow
+
+h3. Primary Use Case
+
+Typical workflow:
+
+# Team holds a design or planning session
+
+# Notes or a solution document are created
+
+# The document is used to generate Jira backlog items
+
+# Backlog is reviewed and refined in Jira
+
+# Work is assigned to engineers
+
+# Engineers begin implementation
+
+# GitHub commits update Jira automatically
+
+# Jira reflects real execution
+
+---
+
+h2. Key Commands
+
+h3. Install Git Hook
+
+Installs repository hooks enabling automated validation and reconciliation.
+
+h3. Reconcile Work
+
+Manually scans commits and reconciles them with Jira issues.
+
+h3. Scan TODOs to Jira
+
+Finds TODO comments in code and proposes Jira issues.
+
+h3. Solution Doc to Backlog
+
+Generates candidate backlog items from a solution document.
+
+---
+
+h2. Participant Responsibilities
+
+Each participant must:
+
+* Complete setup
+* Validate the workflow works locally
+* Select a Sprint 2 use case
+* Ensure their team members are included
+* Provide feedback
+
+---
+
+h2. Feedback Process
+
+Provide feedback in the pilot Slack channel.
+
+Include:
+
+* Use case
+* Step where issue occurred
+* Expected result
+* Actual result
+* Impact
+* Suggested improvement
+
+---
+
+h2. Pilot Success Criteria
+
+The pilot is successful if:
+
+* Teams can onboard successfully
+* Backlog generation is useful
+* Jira reflects engineering activity
+* Teams complete a real use case
+* Feedback helps refine the workflow
+
+---
+
+h2. Phase 2 Direction
+
+After Sprint 2:
+
+* Incorporate pilot feedback
+* Refine documentation and setup
+* Expand usage across CORE
+
+---
+
+h2. Validation Items
+
+During pilot setup we must confirm:
+
+* Tool works from the new repository
+* No dependencies remain on the old repository
+* Latest code is included
+* Jira hygiene standards are maintained
+* CLI integration also meets Jira hygiene standards
+
+---
+
+h2. Quick Start Checklist
+
+h3. Pilot Participants
+
+* Review this page
+* Access repository
+* Complete setup
+* Install hooks
+* Run test workflow
+* Select Sprint 2 use case
+* Confirm participating engineers
+
+h3. Sprint 1 Exit Checklist
+
+* Setup completed
+* Test run successful
+* Use case selected
+* Team participants identified
+* Engineers configured
+* Ready for Sprint 2
