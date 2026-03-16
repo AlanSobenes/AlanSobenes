@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TGS Flow Test PRD</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:40px auto;line-height:1.6;color:#172b4d}
+h1{border-bottom:2px solid #e1e4e8;padding-bottom:10px}
+h2{margin-top:28px}
+pre{background:#f4f5f7;padding:12px;border-radius:6px}
+</style>
+</head>
+<body>
+
+<h1>TGS Flow Pilot Test PRD</h1>
+
+<p><strong>Purpose:</strong> This document is intentionally minimal so that the backlog generation workflow produces exactly one Epic and one Story during the Sprint 1 validation test.</p>
+
+<h2>Problem</h2>
+<p>Engineering teams often forget to update Jira when work begins in GitHub. This results in inaccurate reporting of work in progress and creates additional manual effort for engineers and managers.</p>
+
+<h2>Goal</h2>
+<p>Validate that TGS Flow can generate Jira backlog items from a simple planning artifact.</p>
+
+<h2>Scope</h2>
+<ul>
+<li>Generate a single Epic</li>
+<li>Generate one Story under that Epic</li>
+<li>Confirm the Story can be assigned and updated through GitHub activity</li>
+</ul>
+
+<h2>Epic Definition</h2>
+
+<p><strong>Epic Title</strong></p>
+
+<pre>[TGS TEST] GitHub Activity Sync Validation</pre>
+
+<p><strong>Epic Description</strong></p>
+
+<p>This Epic validates that GitHub commits can automatically update Jira tickets through the TGS Flow workflow.</p>
+
+<h2>Story Definition</h2>
+
+<p><strong>Story Title</strong></p>
+
+<pre>[TGS TEST] Validate GitHub commit updates Jira ticket</pre>
+
+<p><strong>Story Description</strong></p>
+
+<p>An engineer will create a commit referencing the Jira issue key and verify that the commit appears in the Jira activity stream.</p>
+
+<h2>Acceptance Criteria</h2>
+
+<ul>
+<li>A Jira Epic is created from this document</li>
+<li>A Jira Story is generated under the Epic</li>
+<li>The Story can be assigned to an engineer</li>
+<li>A GitHub commit referencing the Story appears in Jira</li>
+<li>The Story shows GitHub activity after the commit</li>
+</ul>
+
+<h2>Test Steps</h2>
+
+<ol>
+<li>Run the backlog generation command using this document</li>
+<li>Confirm one Epic and one Story are created</li>
+<li>Assign the Story to an engineer</li>
+<li>Create a GitHub commit referencing the Jira issue key</li>
+<li>Confirm the commit appears in the Jira issue activity</li>
+</ol>
+
+<h2>Cleanup</h2>
+
+<p>After validation, notify the pilot admins in Slack so the test Epic and Story can be removed.</p>
+
+</body>
+</html>
