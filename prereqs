@@ -1,0 +1,50 @@
+<h2>Prerequisites</h2>
+
+<p>Participants must complete the following access and setup requirements before participating in the pilot.</p>
+
+<h3>Required Access</h3>
+
+<ul>
+  <li><strong>GitHub Enterprise Access</strong>
+    <ul>
+      <li>Request access through <strong>All Access</strong></li>
+      <li>Complete the required GitHub security CBT</li>
+      <li>Confirm access to the TGS Flow repository</li>
+    </ul>
+  </li>
+
+  <li><strong>GitHub Copilot</strong>
+    <ul>
+      <li>Request a GitHub Copilot license through <strong>All Access</strong></li>
+      <li>Complete the GitHub Copilot CBT</li>
+      <li>Confirm Copilot is enabled in VS Code</li>
+    </ul>
+  </li>
+
+  <li><strong>Jira Access</strong>
+    <ul>
+      <li>Request Jira access through <strong>All Access</strong></li>
+      <li>Access to the required Jira project(s)</li>
+      <li>Permission to create Epics and Stories</li>
+      <li>Permission to assign issues</li>
+    </ul>
+  </li>
+
+  <li><strong>Confluence Access</strong>
+    <ul>
+      <li>Request Confluence access through <strong>All Access</strong></li>
+      <li>Access to the Confluence workspace containing pilot documentation</li>
+      <li>Permission to view and comment on pilot documentation</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>Local Development Requirements</h3>
+
+<ul>
+  <li>VS Code installed</li>
+  <li>Git installed and configured</li>
+  <li>Local Git repository available for testing</li>
+  <li>GitHub token</li>
+  <li>Jira token</li>
+</ul>
