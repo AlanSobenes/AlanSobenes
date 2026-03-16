@@ -1,0 +1,136 @@
+# TGS Flow Sprint 1 Validation PRD
+
+## Purpose
+
+This document intentionally contains the minimum information required to validate that TGS Flow can automatically generate Jira backlog items from a structured planning artifact.
+
+The validation confirms that a single Epic and a single Story can be created and linked through the TGS Flow backlog generation workflow.
+
+---
+
+# Problem
+
+Engineering teams frequently begin work in GitHub without first updating Jira.  
+This creates several operational issues:
+
+• Work in progress is not visible to delivery leadership  
+• Jira reporting becomes inaccurate  
+• Engineers must perform manual updates later  
+• Portfolio reporting loses alignment with actual engineering activity  
+
+TGS Flow aims to reduce this friction by automatically reconciling GitHub activity with Jira tracking.
+
+---
+
+# Goal
+
+Validate that TGS Flow can generate Jira backlog items from a simple planning document and that GitHub activity can be reflected automatically in Jira.
+
+---
+
+# Scope
+
+This validation test will confirm the following capabilities:
+
+• Generate a single Jira Epic from this document  
+• Generate one Jira Story under that Epic  
+• Assign the Story to an engineer  
+• Link GitHub commits to the Jira Story through issue key references  
+• Confirm Jira activity updates automatically when GitHub work occurs
+
+---
+
+# Epic Definition
+
+## Summary
+[TGS TEST] GitHub Activity Sync Validation
+
+## Epic Name
+GitHub Activity Sync Validation
+
+## Assigned PO
+TBD
+
+## Assignee
+TBD
+
+## Strategic Driver
+Platform Investments
+
+## Description
+
+This Epic validates that GitHub commits can automatically update Jira tickets through the TGS Flow workflow.
+
+The Epic exists to confirm that development activity recorded in GitHub can be automatically reflected in Jira tracking without requiring engineers to manually update tickets.
+
+Successful validation demonstrates that engineering execution systems and reporting systems can remain aligned with minimal manual intervention.
+
+## Acceptance Criteria
+
+• A Jira Epic is successfully created from this document  
+• The Epic contains the defined Summary, Description, and Strategic Driver  
+• The Epic can be assigned to an Epic Manager  
+• Stories generated through TGS Flow appear under this Epic  
+• Engineering activity linked to stories under this Epic appears in Jira reporting  
+
+## Planned Start
+TBD
+
+## Planned End
+TBD
+
+## Parent Link
+TBD
+
+---
+
+# Story Definition
+
+## Summary
+[TGS TEST] Validate GitHub commit updates Jira ticket
+
+## Assigned PO
+TBD
+
+## Team
+TGS Flow Engineering
+
+## Epic Link
+GitHub Activity Sync Validation
+
+## Assignee
+TBD
+
+## ASV
+TBD
+
+## Description
+
+An engineer will create a GitHub commit referencing the Jira issue key and verify that the commit appears automatically in the Jira issue activity stream.
+
+This test validates that GitHub activity can update Jira tickets through the TGS Flow automation workflow without manual ticket updates.
+
+## Acceptance Criteria
+
+• A Jira Story is generated under the Epic  
+• The Story can be assigned to an engineer  
+• A GitHub commit referencing the Story appears in Jira  
+• Jira displays the linked GitHub commit activity  
+• The Story reflects GitHub updates without manual modification  
+
+---
+
+# Test Steps
+
+1. Run the backlog generation command using this PRD
+2. Confirm one Epic and one Story are created in Jira
+3. Assign the Story to an engineer
+4. Create a GitHub commit referencing the Jira issue key
+5. Confirm the commit appears in the Jira issue activity
+6. Verify Jira automatically reflects GitHub activity
+
+---
+
+# Cleanup
+
+After validation is complete, notify the pilot administrators in Slack so the test Epic and Story can be removed from the backlog.
