@@ -112,27 +112,30 @@ that never leaves the machine.
 
 <br>
 
-## `>` open source
+## `>` public work
 
-**[whisperflow-local](https://github.com/AlanSobenes/whisperflow-local)** — a 100% local WhisperFlow
-clone for Windows. Push-to-talk dictation with `faster-whisper` on CUDA, an Ollama cleanup pass, and
-focus-safe paste. Nothing touches the cloud at dictation time.
+**[whisperflow-local](https://github.com/AlanSobenes/whisperflow-local)** — a fully local
+WhisperFlow alternative for Windows, forked and hardened for my own setup. Push-to-talk dictation
+with `faster-whisper` on CUDA, an Ollama cleanup pass, and focus-safe paste. Nothing touches the
+cloud at dictation time.
 
-**[jira-poc](https://github.com/AlanSobenes/jira-poc)** — auto-labeling external dependencies on Jira
-issues, so cross-team blockers surface before standup instead of during it.
+The rest of my current work — FITREPS, BASE, TITAN, and the agent tooling behind them — lives in
+private repos. The public history here is mostly early coursework from 2021; I've left it up rather
+than curate it away, because the distance between then and now is the point.
 
 <br>
 
-## `>` github
+## `>` activity
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AlanSobenes&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=22d3ee&icon_color=a78bfa&text_color=cbd5e1&bg_color=0a0e17" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlanSobenes&layout=compact&langs_count=8&hide_border=true&title_color=22d3ee&text_color=cbd5e1&bg_color=0a0e17" alt="Top languages">
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg">
+  <img src="./assets/stats-dark.svg" alt="GitHub activity statistics" width="100%">
+</picture>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AlanSobenes&hide_border=true&background=0a0e17&stroke=1f2a3d&ring=22d3ee&fire=f472b6&currStreakLabel=22d3ee&sideLabels=cbd5e1&currStreakNum=f1f5f9&sideNums=f1f5f9&dates=64748b" alt="Streak">
-</div>
+<sub>Generated from the GitHub API by [`scripts/gen-stats.js`](./scripts/gen-stats.js) and
+refreshed daily by [Actions](./.github/workflows/refresh-stats.yml) — no third-party stat service to
+rate-limit or go offline.</sub>
 
 <br>
 
