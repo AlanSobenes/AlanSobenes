@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 383" width="1100" height="383" role="img" aria-label="Technology stack: AI and agents, languages, product, cloud and data, delivery">
+<defs><style>
+  .chip{opacity:0;animation:pop .5s cubic-bezier(.2,.8,.3,1) forwards}
+  @keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+  @media (prefers-reduced-motion: reduce){.chip{opacity:1;animation:none}}
+</style></defs>
+<rect width="1100" height="383" rx="14" fill="#0a0e17" stroke="#1f2a3d"/>
+<text x="34" y="46" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#f1f5f9">Stack</text>
+<text x="102" y="46" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#64748b">what I actually build with</text>
+<line x1="34" y1="64" x2="1066" y2="64" stroke="#1f2a3d"/>
+<g>
+      <rect x="22" y="83" width="1056" height="79" rx="10" fill="none" opacity="0"/>
+      <rect x="34" y="95" width="3" height="15" rx="1.5" fill="#a78bfa"/>
+      <text x="48" y="108" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#64748b">AI & AGENTS</text>
+      <g class="chip" style="animation-delay:0.00s">
+        <rect x="202" y="92" width="105" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="214" cy="105.5" r="2.6" fill="#a78bfa"/>
+        <text x="223" y="110" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Claude Code</text></g><g class="chip" style="animation-delay:0.04s">
+        <rect x="316" y="92" width="105" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="328" cy="105.5" r="2.6" fill="#a78bfa"/>
+        <text x="337" y="110" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">MCP servers</text></g><g class="chip" style="animation-delay:0.07s">
+        <rect x="430" y="92" width="205" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="442" cy="105.5" r="2.6" fill="#a78bfa"/>
+        <text x="451" y="110" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Multi-agent orchestration</text></g><g class="chip" style="animation-delay:0.11s">
+        <rect x="644" y="92" width="112" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="656" cy="105.5" r="2.6" fill="#a78bfa"/>
+        <text x="665" y="110" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Agent skills</text></g><g class="chip" style="animation-delay:0.14s">
+        <rect x="765" y="92" width="183" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="777" cy="105.5" r="2.6" fill="#a78bfa"/>
+        <text x="786" y="110" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">RAG / knowledge graphs</text></g><g class="chip" style="animation-delay:0.18s">
+        <rect x="202" y="126" width="155" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="214" cy="139.5" r="2.6" fill="#a78bfa"/>
+        <text x="223" y="144" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Local LLM (Ollama)</text></g></g><g>
+      <rect x="22" y="164" width="1056" height="45" rx="10" fill="#0d131f" opacity="1"/>
+      <rect x="34" y="176" width="3" height="15" rx="1.5" fill="#22d3ee"/>
+      <text x="48" y="189" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#64748b">LANGUAGES</text>
+      <g class="chip" style="animation-delay:0.09s">
+        <rect x="202" y="173" width="98" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="214" cy="186.5" r="2.6" fill="#22d3ee"/>
+        <text x="223" y="191" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">TypeScript</text></g><g class="chip" style="animation-delay:0.13s">
+        <rect x="309" y="173" width="69" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="321" cy="186.5" r="2.6" fill="#22d3ee"/>
+        <text x="330" y="191" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Python</text></g><g class="chip" style="animation-delay:0.16s">
+        <rect x="387" y="173" width="55" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="399" cy="186.5" r="2.6" fill="#22d3ee"/>
+        <text x="408" y="191" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Java</text></g><g class="chip" style="animation-delay:0.20s">
+        <rect x="451" y="173" width="55" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="463" cy="186.5" r="2.6" fill="#22d3ee"/>
+        <text x="472" y="191" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Rust</text></g><g class="chip" style="animation-delay:0.23s">
+        <rect x="515" y="173" width="47" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="527" cy="186.5" r="2.6" fill="#22d3ee"/>
+        <text x="536" y="191" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">SQL</text></g><g class="chip" style="animation-delay:0.27s">
+        <rect x="571" y="173" width="55" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="583" cy="186.5" r="2.6" fill="#22d3ee"/>
+        <text x="592" y="191" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Bash</text></g></g><g>
+      <rect x="22" y="211" width="1056" height="45" rx="10" fill="none" opacity="0"/>
+      <rect x="34" y="223" width="3" height="15" rx="1.5" fill="#4ade80"/>
+      <text x="48" y="236" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#64748b">PRODUCT</text>
+      <g class="chip" style="animation-delay:0.18s">
+        <rect x="202" y="220" width="76" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="214" cy="233.5" r="2.6" fill="#4ade80"/>
+        <text x="223" y="238" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Next.js</text></g><g class="chip" style="animation-delay:0.21s">
+        <rect x="287" y="220" width="62" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="299" cy="233.5" r="2.6" fill="#4ade80"/>
+        <text x="308" y="238" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">React</text></g><g class="chip" style="animation-delay:0.25s">
+        <rect x="358" y="220" width="76" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="370" cy="233.5" r="2.6" fill="#4ade80"/>
+        <text x="379" y="238" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Node.js</text></g><g class="chip" style="animation-delay:0.29s">
+        <rect x="443" y="220" width="62" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="455" cy="233.5" r="2.6" fill="#4ade80"/>
+        <text x="464" y="238" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Tauri</text></g><g class="chip" style="animation-delay:0.32s">
+        <rect x="514" y="220" width="47" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="526" cy="233.5" r="2.6" fill="#4ade80"/>
+        <text x="535" y="238" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">MUI</text></g><g class="chip" style="animation-delay:0.35s">
+        <rect x="570" y="220" width="47" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="582" cy="233.5" r="2.6" fill="#4ade80"/>
+        <text x="591" y="238" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">PWA</text></g></g><g>
+      <rect x="22" y="258" width="1056" height="45" rx="10" fill="#0d131f" opacity="1"/>
+      <rect x="34" y="270" width="3" height="15" rx="1.5" fill="#fbbf24"/>
+      <text x="48" y="283" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#64748b">CLOUD & DATA</text>
+      <g class="chip" style="animation-delay:0.27s">
+        <rect x="202" y="267" width="47" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="214" cy="280.5" r="2.6" fill="#fbbf24"/>
+        <text x="223" y="285" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">AWS</text></g><g class="chip" style="animation-delay:0.31s">
+        <rect x="258" y="267" width="69" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="270" cy="280.5" r="2.6" fill="#fbbf24"/>
+        <text x="279" y="285" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Lambda</text></g><g class="chip" style="animation-delay:0.34s">
+        <rect x="336" y="267" width="76" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="348" cy="280.5" r="2.6" fill="#fbbf24"/>
+        <text x="357" y="285" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Cognito</text></g><g class="chip" style="animation-delay:0.38s">
+        <rect x="421" y="267" width="76" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="433" cy="280.5" r="2.6" fill="#fbbf24"/>
+        <text x="442" y="285" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Amplify</text></g><g class="chip" style="animation-delay:0.41s">
+        <rect x="506" y="267" width="83" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="518" cy="280.5" r="2.6" fill="#fbbf24"/>
+        <text x="527" y="285" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">DynamoDB</text></g><g class="chip" style="animation-delay:0.45s">
+        <rect x="598" y="267" width="83" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="610" cy="280.5" r="2.6" fill="#fbbf24"/>
+        <text x="619" y="285" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Postgres</text></g><g class="chip" style="animation-delay:0.48s">
+        <rect x="690" y="267" width="69" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="702" cy="280.5" r="2.6" fill="#fbbf24"/>
+        <text x="711" y="285" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">SQLite</text></g></g><g>
+      <rect x="22" y="305" width="1056" height="45" rx="10" fill="none" opacity="0"/>
+      <rect x="34" y="317" width="3" height="15" rx="1.5" fill="#f472b6"/>
+      <text x="48" y="330" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#64748b">DELIVERY</text>
+      <g class="chip" style="animation-delay:0.36s">
+        <rect x="202" y="314" width="126" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="214" cy="327.5" r="2.6" fill="#f472b6"/>
+        <text x="223" y="332" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">GitHub Actions</text></g><g class="chip" style="animation-delay:0.40s">
+        <rect x="337" y="314" width="98" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="349" cy="327.5" r="2.6" fill="#f472b6"/>
+        <text x="358" y="332" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Playwright</text></g><g class="chip" style="animation-delay:0.43s">
+        <rect x="444" y="314" width="69" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="456" cy="327.5" r="2.6" fill="#f472b6"/>
+        <text x="465" y="332" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Docker</text></g><g class="chip" style="animation-delay:0.46s">
+        <rect x="522" y="314" width="76" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="534" cy="327.5" r="2.6" fill="#f472b6"/>
+        <text x="543" y="332" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Jenkins</text></g><g class="chip" style="animation-delay:0.50s">
+        <rect x="607" y="314" width="126" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="619" cy="327.5" r="2.6" fill="#f472b6"/>
+        <text x="628" y="332" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Stripe Connect</text></g><g class="chip" style="animation-delay:0.54s">
+        <rect x="742" y="314" width="119" height="27" rx="7" fill="#161f30" stroke="#243349"/>
+        <circle cx="754" cy="327.5" r="2.6" fill="#f472b6"/>
+        <text x="763" y="332" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.2" fill="#dbeafe">Observability</text></g></g>
+</svg>

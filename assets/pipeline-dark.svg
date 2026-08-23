@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300" role="img" aria-label="How I ship: capture, plan, build, prove, ship - an agent-run delivery pipeline">
+<defs><style>
+  .rise{opacity:0;animation:rise .62s cubic-bezier(.2,.8,.3,1) forwards}
+  @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  @media (prefers-reduced-motion: reduce){.rise{opacity:1;animation:none}}
+</style></defs>
+<rect width="1100" height="300" rx="14" fill="#0a0e17" stroke="#1f2a3d"/>
+<text x="34" y="46" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#f1f5f9">How I ship</text>
+<text x="142" y="46" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#64748b">one human orchestrating a fleet of agents</text>
+<line x1="34" y1="64" x2="1066" y2="64" stroke="#1f2a3d"/>
+<g class="rise" style="animation-delay:0.26s">
+        <line x1="233" y1="171" x2="246" y2="171" stroke="#1f2a3d" stroke-width="1.5"/>
+        <path d="M242 167.6 L247 171 L242 174.4Z" fill="#64748b"/>
+        <circle cx="233" cy="171" r="2.4" fill="#22d3ee">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="2.6s" begin="0.00s" repeatCount="indefinite"/>
+        </circle></g><g class="rise" style="animation-delay:0.18s">
+      <rect x="38" y="96" width="194" height="150" rx="11" fill="#111827" stroke="#1f2a3d"/>
+      <rect x="38" y="96" width="194" height="3" rx="1.5" fill="#22d3ee"/>
+      <text x="55" y="128" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#22d3ee">01</text>
+      <text x="55" y="152" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="700" letter-spacing="0.4" fill="#f1f5f9">CAPTURE</text>
+      <text x="55" y="180" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">Meetings, chats, docs</text><text x="55" y="197" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">land in a versioned</text><text x="55" y="214" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">knowledge vault</text></g><g class="rise" style="animation-delay:0.39s">
+        <line x1="442" y1="171" x2="455" y2="171" stroke="#1f2a3d" stroke-width="1.5"/>
+        <path d="M451 167.6 L456 171 L451 174.4Z" fill="#64748b"/>
+        <circle cx="442" cy="171" r="2.4" fill="#a78bfa">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="2.6s" begin="0.42s" repeatCount="indefinite"/>
+        </circle></g><g class="rise" style="animation-delay:0.31s">
+      <rect x="247" y="96" width="194" height="150" rx="11" fill="#111827" stroke="#1f2a3d"/>
+      <rect x="247" y="96" width="194" height="3" rx="1.5" fill="#a78bfa"/>
+      <text x="264" y="128" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#a78bfa">02</text>
+      <text x="264" y="152" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="700" letter-spacing="0.4" fill="#f1f5f9">PLAN</text>
+      <text x="264" y="180" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">An orchestrator reads</text><text x="264" y="197" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">the Brain and writes</text><text x="264" y="214" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">the spec + task graph</text></g><g class="rise" style="animation-delay:0.52s">
+        <line x1="651" y1="171" x2="664" y2="171" stroke="#1f2a3d" stroke-width="1.5"/>
+        <path d="M660 167.6 L665 171 L660 174.4Z" fill="#64748b"/>
+        <circle cx="651" cy="171" r="2.4" fill="#4ade80">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="2.6s" begin="0.84s" repeatCount="indefinite"/>
+        </circle></g><g class="rise" style="animation-delay:0.44s">
+      <rect x="456" y="96" width="194" height="150" rx="11" fill="#111827" stroke="#1f2a3d"/>
+      <rect x="456" y="96" width="194" height="3" rx="1.5" fill="#4ade80"/>
+      <text x="473" y="128" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4ade80">03</text>
+      <text x="473" y="152" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="700" letter-spacing="0.4" fill="#f1f5f9">BUILD</text>
+      <text x="473" y="180" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">Parallel agent lanes</text><text x="473" y="197" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">in isolated worktrees,</text><text x="473" y="214" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">each on one ticket</text></g><g class="rise" style="animation-delay:0.65s">
+        <line x1="860" y1="171" x2="873" y2="171" stroke="#1f2a3d" stroke-width="1.5"/>
+        <path d="M869 167.6 L874 171 L869 174.4Z" fill="#64748b"/>
+        <circle cx="860" cy="171" r="2.4" fill="#fbbf24">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="2.6s" begin="1.26s" repeatCount="indefinite"/>
+        </circle></g><g class="rise" style="animation-delay:0.57s">
+      <rect x="665" y="96" width="194" height="150" rx="11" fill="#111827" stroke="#1f2a3d"/>
+      <rect x="665" y="96" width="194" height="3" rx="1.5" fill="#fbbf24"/>
+      <text x="682" y="128" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#fbbf24">04</text>
+      <text x="682" y="152" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="700" letter-spacing="0.4" fill="#f1f5f9">PROVE</text>
+      <text x="682" y="180" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">Adversarial review,</text><text x="682" y="197" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">real test runs,</text><text x="682" y="214" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">rendered UI evidence</text></g><g class="rise" style="animation-delay:0.70s">
+      <rect x="874" y="96" width="194" height="150" rx="11" fill="#111827" stroke="#1f2a3d"/>
+      <rect x="874" y="96" width="194" height="3" rx="1.5" fill="#f472b6"/>
+      <text x="891" y="128" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.6" fill="#f472b6">05</text>
+      <text x="891" y="152" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="700" letter-spacing="0.4" fill="#f1f5f9">SHIP</text>
+      <text x="891" y="180" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">Merge, deploy, and</text><text x="891" y="197" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">write the outcome</text><text x="891" y="214" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.4" fill="#cbd5e1">back to the Brain</text></g>
+<text x="34" y="278" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="11.5" fill="#64748b">The loop is the product: every shipped change is written back, so the next run starts smarter.</text>
+</svg>
