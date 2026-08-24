@@ -37,6 +37,9 @@ jobs:
           STATS_USER: ${{ github.repository_owner }}
         run: node scripts/gen-stats.js
 
+      - name: Validate SVGs decode as images
+        run: node scripts/check-svg.js
+
       - name: Commit if changed
         run: |
           git config user.name  'github-actions[bot]'
