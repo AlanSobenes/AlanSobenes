@@ -167,11 +167,7 @@ function render(s, P) {
   });
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="GitHub activity: ${nf(s.total)} total contributions since ${s.since}, ${nf(s.lastYear)} in the past 12 months, current streak ${s.current} days, longest ${s.longest} days, ${s.repos} repositories">
-<defs><style>
-  .rise{opacity:0;animation:rise .6s cubic-bezier(.2,.8,.3,1) forwards}
-  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
-  @media (prefers-reduced-motion: reduce){.rise{opacity:1;animation:none}rect{animation:none !important}}
-</style></defs>
+<defs><style>@media (prefers-reduced-motion: no-preference){.rise{animation:rise .6s cubic-bezier(.2,.8,.3,1)}}@keyframes rise{from{opacity:.55;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}</style></defs>
 <rect width="${W}" height="${H}" rx="14" fill="${P.bg}" stroke="${P.line}"/>
 <text x="${padX}" y="46" font-family="${SANS}" font-size="20" font-weight="700" fill="${P.head}">Activity</text>
 <text x="${padX + 88}" y="46" font-family="${MONO}" font-size="12.5" fill="${P.dim}">self-hosted, refreshed daily &#183; ${s.generated}</text>

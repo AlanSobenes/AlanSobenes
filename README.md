@@ -112,19 +112,6 @@ that never leaves the machine.
 
 <br>
 
-## `>` public work
-
-**[whisperflow-local](https://github.com/AlanSobenes/whisperflow-local)** — a fully local
-WhisperFlow alternative for Windows, forked and hardened for my own setup. Push-to-talk dictation
-with `faster-whisper` on CUDA, an Ollama cleanup pass, and focus-safe paste. Nothing touches the
-cloud at dictation time.
-
-The rest of my current work — FITREPS, BASE, TITAN, and the agent tooling behind them — lives in
-private repos. The public history here is mostly early coursework from 2021; I've left it up rather
-than curate it away, because the distance between then and now is the point.
-
-<br>
-
 ## `>` activity
 
 <picture>
@@ -133,9 +120,8 @@ than curate it away, because the distance between then and now is the point.
   <img src="./assets/stats-dark.svg" alt="GitHub activity statistics" width="100%">
 </picture>
 
-<sub>Generated from the GitHub API by [`scripts/gen-stats.js`](./scripts/gen-stats.js) and
-refreshed daily by [Actions](./.github/workflows/refresh-stats.yml) — no third-party stat service to
-rate-limit or go offline.</sub>
+<sub>Rendered from the GitHub API and refreshed daily — no third-party stat service to rate-limit or
+go offline.</sub>
 
 <br>
 

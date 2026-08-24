@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 383" width="1100" height="383" role="img" aria-label="Technology stack: AI and agents, languages, product, cloud and data, delivery">
-<defs><style>
-  .chip{opacity:0;animation:pop .5s cubic-bezier(.2,.8,.3,1) forwards}
-  @keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
-  @media (prefers-reduced-motion: reduce){.chip{opacity:1;animation:none}}
-</style></defs>
+<defs><style>@media (prefers-reduced-motion: no-preference){.chip{animation:pop .5s cubic-bezier(.2,.8,.3,1)}}@keyframes pop{from{opacity:.55;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}</style></defs>
 <rect width="1100" height="383" rx="14" fill="#0a0e17" stroke="#1f2a3d"/>
 <text x="34" y="46" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#f1f5f9">Stack</text>
 <text x="102" y="46" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#64748b">what I actually build with</text>

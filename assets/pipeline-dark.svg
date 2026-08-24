@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300" role="img" aria-label="How I ship: capture, plan, build, prove, ship - an agent-run delivery pipeline">
-<defs><style>
-  .rise{opacity:0;animation:rise .62s cubic-bezier(.2,.8,.3,1) forwards}
-  @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-  @media (prefers-reduced-motion: reduce){.rise{opacity:1;animation:none}}
-</style></defs>
+<defs><style>@media (prefers-reduced-motion: no-preference){.rise{animation:rise .62s cubic-bezier(.2,.8,.3,1)}}@keyframes rise{from{opacity:.55;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}</style></defs>
 <rect width="1100" height="300" rx="14" fill="#0a0e17" stroke="#1f2a3d"/>
 <text x="34" y="46" font-family="'Segoe UI',Inter,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="700" fill="#f1f5f9">How I ship</text>
 <text x="142" y="46" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace" font-size="12.5" fill="#64748b">one human orchestrating a fleet of agents</text>
