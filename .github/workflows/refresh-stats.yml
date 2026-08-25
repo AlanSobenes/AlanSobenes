@@ -9,9 +9,10 @@ on:
     - cron: '17 6 * * *' # daily, 06:17 UTC
   workflow_dispatch:
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - 'scripts/gen-stats.js'
+      - 'scripts/gen-stats.test.js'
       - '.github/workflows/refresh-stats.yml'
 
 permissions:
@@ -30,6 +31,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      - name: Test stats generator
+        run: node --test scripts/gen-stats.test.js
 
       - name: Generate stats SVGs
         env:

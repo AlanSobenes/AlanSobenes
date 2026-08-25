@@ -44,7 +44,7 @@ async function collect() {
       user(login:$u){
         createdAt
         followers{totalCount}
-        repositories(ownerAffiliations:OWNER, isFork:false){totalCount}
+        repositories(ownerAffiliations:OWNER, privacy:PUBLIC){totalCount}
       }
     }`,
     { u: USER }
@@ -78,7 +78,6 @@ async function collect() {
   const sorted = [...byDate.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 
   const total = sorted.reduce((a, [, c]) => a + c, 0);
-  const activeDays = sorted.filter(([, c]) => c > 0).length;
   const best = sorted.reduce((m, d) => (d[1] > m[1] ? d : m), ['', 0]);
 
   // streaks — today counts as "not yet broken" if it is still 0
@@ -97,7 +96,9 @@ async function collect() {
 
   // last 12 months
   const yearAgo = new Date(now.getTime() - 365 * 864e5).toISOString().slice(0, 10);
-  const lastYear = sorted.filter(([d]) => d >= yearAgo).reduce((a, [, c]) => a + c, 0);
+  const lastYearDays = sorted.filter(([d]) => d >= yearAgo);
+  const lastYear = lastYearDays.reduce((a, [, c]) => a + c, 0);
+  const activeDays = lastYearDays.filter(([, c]) => c > 0).length;
 
   const years = ((now - start) / (365.25 * 864e5)).toFixed(1);
 
@@ -139,7 +140,7 @@ function render(s, P) {
     { v: nf(s.total), l: 'TOTAL CONTRIBUTIONS', s: `since ${s.since}`, k: 'cyan' },
     { v: nf(s.lastYear), l: 'PAST 12 MONTHS', s: `${s.activeDays} active days`, k: 'violet' },
     { v: nf(s.current), l: 'CURRENT STREAK', s: `longest ${nf(s.longest)} days`, k: 'green' },
-    { v: nf(s.repos), l: 'REPOSITORIES', s: `${s.years} yrs shipping`, k: 'amber' },
+    { v: nf(s.repos), l: 'PUBLIC REPOS', s: `${s.years} yrs shipping`, k: 'amber' },
   ];
 
   const tw = 244, gx = 15, ty = 92, th = 96;
@@ -166,7 +167,7 @@ function render(s, P) {
     bars += `<rect x="${(sx + i * bw).toFixed(2)}" y="${(sy + sh - h).toFixed(2)}" width="${Math.max(1.1, bw - 0.9).toFixed(2)}" height="${h.toFixed(2)}" rx="0.8" fill="${fill}" opacity="${c === 0 ? 0.55 : 0.9}"><animate attributeName="height" from="0" to="${h.toFixed(2)}" dur="0.5s" begin="${(i * 0.003).toFixed(3)}s" fill="freeze"/><animate attributeName="y" from="${sy + sh}" to="${(sy + sh - h).toFixed(2)}" dur="0.5s" begin="${(i * 0.003).toFixed(3)}s" fill="freeze"/></rect>`;
   });
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="GitHub activity: ${nf(s.total)} total contributions since ${s.since}, ${nf(s.lastYear)} in the past 12 months, current streak ${s.current} days, longest ${s.longest} days, ${s.repos} repositories">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="GitHub activity: ${nf(s.total)} total contributions since ${s.since}, ${nf(s.lastYear)} in the past 12 months, current streak ${s.current} days, longest ${s.longest} days, ${s.repos} public repositories">
 <defs><style>@media (prefers-reduced-motion: no-preference){.rise{animation:rise .6s cubic-bezier(.2,.8,.3,1)}}@keyframes rise{from{opacity:.55;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}</style></defs>
 <rect width="${W}" height="${H}" rx="14" fill="${P.bg}" stroke="${P.line}"/>
 <text x="${padX}" y="46" font-family="${SANS}" font-size="20" font-weight="700" fill="${P.head}">Activity</text>
